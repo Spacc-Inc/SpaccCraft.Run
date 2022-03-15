@@ -3,7 +3,7 @@
 REM SET APPDATA=%CD%
 
 REM : Fix for file not read correctly if not terminated
-MORE Username.txt > WinUsrnm.txt
+TYPE Username.txt > WinUsrnm.txt
 ECHO. >> WinUsrnm.txt
 
 REM : Reading Minecraft Username
