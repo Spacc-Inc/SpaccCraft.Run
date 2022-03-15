@@ -3,11 +3,11 @@ One-click SpaccCraft Launcher
 
 Playing SpaccCraft (Minecraft Beta 1.7.3 + QoL mods) just by starting a single, portable executable.
 
-![GIF Preview](Preview.gif)
+![GIF Preview](Assets/Preview.gif)
 
 ### How to use
 
-Download the [compiled package](https://github.com/Spacc-Inc/SpaccCraft.Run/releases/latest) for your platform (or build it yourself),
+Download the [compiled package](https://github.com/Spacc-Inc/SpaccCraft.Run/releases/latest) for your platform (or build it yourself, to do so you will need JRE and Minecraft files from other sources),
 make it executable, and start it.
 Enter your username and any password (launcher is not premium), then close, and restart.
 Everything is now ready for you to play!

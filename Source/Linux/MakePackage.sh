@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 Arch="amd64"
 Name="SpaccCraft.Run"
