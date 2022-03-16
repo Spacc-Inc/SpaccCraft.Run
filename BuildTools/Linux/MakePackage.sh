@@ -6,4 +6,4 @@ Label="$Name | One-click SpaccCraft Launcher [Linux $Arch]"
 
 Compression="--nocomp" # --bzip2
 
-makeself "$Compression" "." "./SpaccCraft.Run.$Arch" "$Label" "./Run.bash"
+makeself "$Compression" "." "./SpaccCraft.Run.$Arch" "$Label" "./Run.sh"
