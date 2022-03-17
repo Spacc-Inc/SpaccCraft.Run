@@ -93,14 +93,12 @@ public class Launcher extends javax.swing.JFrame {
     
     private static void Play() {
         String OS = System.getProperty("os.name").toLowerCase();
-        if (OS.contains("win") || OS.contains("linux")) {
-            if (OS.contains("win")) {
-                String[] Cmd = {"GameBoot.bat"};
-                StartProcess(Cmd);
-            } else if (OS.contains("linux")) {
-                String[] Cmd = {"./GameBoot.sh"};
-                StartProcess(Cmd);
-            }
+        if (OS.contains("win")) {
+            String[] Cmd = {"GameBoot.bat"};
+            StartProcess(Cmd);
+        } else if (OS.contains("linux")) {
+            String[] Cmd = {"./GameBoot.sh"};
+            StartProcess(Cmd);
         } else {
             System.out.println("Error: Your OS (detected: " + OS + ") is unsupported!");
         }
@@ -131,10 +129,6 @@ public class Launcher extends javax.swing.JFrame {
             System.out.println("Error: Username not saved!");
         }
         return false;
-    }
-    
-    private static boolean OpenConfig() {
-        return true;
     }
     
     private void UsernameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsernameFieldActionPerformed
